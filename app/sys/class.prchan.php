@@ -2,7 +2,7 @@
 
 class prChan {
 
-    const AUTHOR = NULL;
+    const AUTHOR = '!E4iX5FPygE!!58vu8eH8';
 
     final public static function init($mode) {
         if ($mode == 'indev') {
