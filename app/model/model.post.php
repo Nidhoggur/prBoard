@@ -1,6 +1,6 @@
 <?php
 
-class postModel extends basicModel {
+class PostModel extends BasicModel {
     private $topicId = '';
     private $body = '';
     private $authorKey = '';

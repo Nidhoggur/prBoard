@@ -1,6 +1,6 @@
 <?php
 
-class postController extends basicController {
+class PostController extends BasicController {
 
     public function __construct() {
         $this->model = postModel;
@@ -25,9 +25,9 @@ class postController extends basicController {
             $this->model->setTopicBody($body);
             $this->model->setAuthorKey($authorKey);
             if ($this->model->post()) {
-                $this->view->show('postForm','Success');
+                $this->view->show('postForm', 'Success');
             } else {
-                $this->view->show('postForm','Fail');
+                $this->view->show('postForm', 'Fail');
             }
         }
     }

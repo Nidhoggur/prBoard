@@ -6,5 +6,4 @@ $config['user'] = 'root';
 $config['pwd'] = '';
 $config['database'] = 'prchan';
 $config['encode'] = 'utf8';
-
 ?>

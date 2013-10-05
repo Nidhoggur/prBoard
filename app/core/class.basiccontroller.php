@@ -1,10 +1,10 @@
 <?php
 
-abstract class basicController {
+abstract class BasicController {
 
-    var $model;
-    var $view;
-    
+    protected $model;
+    protected $view;
+
     protected function __construct() {
         $this->view = View();
     }

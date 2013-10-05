@@ -1,6 +1,6 @@
 <?php
 
-class prChan {
+class PrChan {
 
     const AUTHOR = '!E4iX5FPygE!!58vu8eH8';
 
@@ -9,7 +9,7 @@ class prChan {
             ini_set('display_errors', 1);
             error_reporting('E_ALL');
         }
-        
+
         Router::route(new Request);
     }
 
